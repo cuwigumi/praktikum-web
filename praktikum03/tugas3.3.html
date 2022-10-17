@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan barang</title>
+</head>
+<body style="font-family: sans-serif; background-color: #e7b3e5; " >
+    <nav>
+        <fieldset style="margin-left: 30px; margin-top: 5%; background-color:white;" >
+            <table width="100%" >
+                <tr>
+                    
+                    <td><a style="text-decoration: none; color: black;" href=""> Home |</a></td>
+                    <td><a style="text-decoration: none; color: black;" href=""> Generate Link |</a></td>
+                    <td><a style="text-decoration: none; color: black;" href=""> Transaction History |</a></td>
+                    <td><a style="text-decoration: none; color: black;" href=""> Policy |</a></td>
+                    <td><a style="text-decoration: none; color: black;" href=""> Logout |</a></td>
+                </tr>
+            </table>
+        </fieldset>
+    </nav>
+    <br>
+    <br>
+    <div style="margin-left: 10%; float:left" >
+        <img src="skzoodwaekki.jpg" alt="" width="200px">
+        <br>
+        <input type="button" value="upload picture" style="margin-top: 10px; padding: 8px; margin-left: 40px">
+    </div>
+    <form action="tugas3.4.html">
+        <table style="margin-left: 200px; padding-left: 5%" >
+            <tr>
+                <td width="200px; rowspan=4"> <label for="title">Title Here</label></td>
+                <td>: <input type="text" id="title"></td>
+            </tr>
+            <tr>
+                <td> <label for="deskripsi">Description</label></td>
+                <td>: <textarea name="deskripsi" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="no">Account Number</label>
+                </td>
+                <td>: <input type="number" id="no"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="bank">Bank</label>
+                </td>
+                <td>
+                    <select id="bank" style="width: 100px;margin-left: 5px;">
+                    <option value="MANDIRI"></option> 
+                    <option value="BCA"></option>
+                    <option value="BRI"></option>
+                    <option value="BNI"></option>
+                    <option value="LINE BANK"></option>
+                    <option value="Visa Debit"></option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hrr">Account Holder</label></td>
+                <td>: <input type="text" id="hrr"></td>
+            </tr>
+            <tr>
+                <td><label for="trans">Transaction</label></td>
+                <td>
+                    <select id="trans" style="width: 50px; margin-left:1%">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr> 
+                <td></td>
+                <td> * if the transaction is for 4 person, choose 4 from the drop-down list
+                    <br>
+                    <input type="checkbox" id="phone" >
+                    <label for="phone">Send to Mobile Phone</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="email" >
+                    <label for="email">Send to Email</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hp">Send to Phone Number</label></td>
+                <td>: <input type="text" id="hp"></td>
+            </tr>
+            <tr>
+                <td><label for="sendemail">Send to Email</label></td>
+                <td>: <input type="text" id="sendemail"></td>
+            </tr>
+        </table>
+            <br>
+            <br>
+            <br>
+        <div>
+            <button style="background-color:green; color:white; padding:10px; width: 15%; margin-left: 35%;" 
+            name="submit"> Generate Nabr Link</button>
+          </div>
+
+
+        </table>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Pemesanan</title>
+</head>
+<body style="font-family: sans-serif; background-color: #e7b3e5;">
+    <nav>
+        <fieldset style="margin-left: 30px; margin-top: 5%; background-color: white;">
+            <table width=" 100%">
+                <tr>
+                    <td> <a style="text-decoration: none; color:black;" href=""> Home | </a></td>
+                    <td> <a style="text-decoration: none; color:black;" href=""> Register | </a></td>
+                    <td> <a style="text-decoration: none; color:black;" href=""> Policy | </a></td>
+                    <td> <a style="text-decoration: none; color:black;" href=""> About | </a></td>
+                </tr>
+            </table>
+        </fieldset>
+    </nav>
+    <br>
+    <br>
+    <div style="margin-left: 10%; float: left;"> 
+        <img src="teulight.jpeg" alt="" width=" 50%">
+        <br>
+
+    </div>
+    <form >
+        <table style="margin-left: 200px; padding-left: 5%;" >
+            <tr>
+                <td>Title Here</td>
+                <td>: SKZOO Dwaekki Ver</td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td>: Year : 2020</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>: Model : skzoo version</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>: Condition : New</td>
+            </tr>
+            <tr>
+                <td>Total Amount</td>
+                <td>: $39.00</td>
+            </tr>
+            <tr>
+                <td>Pay To</td>
+                <td>: 085156961504</td>
+            </tr>
+            <tr>
+                <td><label for="payment">payment type</label></td>
+                <td>:<select id="payment" style="width: 100px; margin-left: 5px;">
+                    <option  value=""> BCA </option>
+                    <option  value=""> BRI </option>
+                    <option  value=""> BNI </option>
+                    <option  value=""> MANDIRI </option>
+                    <option  value=""> CIMB Niaga </option>
+                    <option  value=""> Visa Debit </option>
+                </select>
+            </tr>
+            <tr>
+                <td><label for="hol">Account Holder</label></td>
+                <td>: <input id="hol"  placeholder="Salma Febrianty"></td>
+            </tr>
+            <tr>
+                <td><label for="no">Account No</label></td>
+                <td>: <input id="no" placeholder="085156961504"></td>
+            </tr>
+            <tr>
+                <td><label for="tss">Transaction</label></td>
+                <td>:<select id="tss" style="width: 50px; margin-left:1%;">
+                        <option  value="1"> 1 </option>
+                        <option  value="2"> 2 </option>
+                        <option  value="3"> 3 </option>
+                        <option value="4"> 4 </option>
+                      </select>
+                </td>
+            </tr>
+            <tr> 
+                <td></td>
+                <td> * if the transaction is for 4 person, choose 4 from the drop-down list
+                    <br>
+                    <input type="checkbox" id="phone" checked="checked" >
+                    <label for="phone">Send to Mobile Phone</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="email" checked="checked" >
+                    <label for="email">Send to Email</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hp">Send to Phone Number</label></td>
+                <td>: <input type="text" id="hp" placeholder="085156961504"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Send to Email</label></td>
+                <td>: <input type="text" placeholder="salmafebrianty2602@gmail.com"></td>
+            </tr>
+        </table>
+            <br>
+            <br>
+            <br>
+        <div>
+            <button style="background-color:green; color:white; padding:10px; width: 15%; margin-left: 35%;" 
+            name="submit"> Generate Nabr Link</button>
+          </div>
+    </form>
+</body>
+</html>
